@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HTML Lists Exercises</title>
+  
+</head>
+<body>
+  <h1>HTML Lists — Tasks 1 to 8</h1>
+
+  <!-- Task 1 -->
+  <section class="box">
+    <h2>Task 1 — Simple Ordered List (5 favorite fruits)</h2>
+    <ol>
+      <li>Mango</li>
+      <li>Strawberry</li>
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Kiwi</li>
+    </ol>
+  </section>
+
+  <!-- Task 2 -->
+  <section class="box">
+    <h2>Task 2 — Unordered List (square bullets)</h2>
+    <!-- using type="square" to show square bullets -->
+    <ul type="square">
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Go</li>
+      <li>TypeScript</li>
+    </ul>
+  </section>
+
+  <!-- Task 3 -->
+  <section class="box">
+    <h2>Task 3 — Nested Lists: Subjects and Topics</h2>
+    <ul>
+      <li>Computer Science
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </li>
+      <li>Mathematics
+        <ul>
+          <li>Algebra</li>
+          <li>Calculus</li>
+          <li>Probability</li>
+        </ul>
+      </li>
+      <li>Physics
+        <ul>
+          <li>Mechanics</li>
+          <li>Electromagnetism</li>
+          <li>Optics</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Task 4 -->
+  <section class="box">
+    <h2>Task 4 — Mixed Lists: Shopping with sub-lists (ordered)</h2>
+    <ul>
+      <li>Groceries
+        <ol>
+          <li>Rice — 5 kg (Brand: GoldenGrain)</li>
+          <li>Cooking Oil — 2 L (Brand: PureVeg)</li>
+        </ol>
+      </li>
+      <li>Household
+        <ol>
+          <li>Dishwash Liquid — 1 bottle (Brand: CleanPlus)</li>
+          <li>Toilet Paper — 12 rolls (Brand: SoftRoll)</li>
+        </ol>
+      </li>
+      <li>Snacks
+        <ol>
+          <li>Biscuits — 2 packs</li>
+          <li>Chips — 3 packs</li>
+        </ol>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Task 5 -->
+  <section class="box">
+    <h2>Task 5 — Daily Routine (ordered & unordered with nested sub-tasks)</h2>
+    <ol>
+      <li>Morning
+        <ul>
+          <li>Wake up at 6:30 AM</li>
+          <li>Exercise
+            <ol>
+              <li>Stretching — 10 min</li>
+              <li>Jogging — 20 min</li>
+            </ol>
+          </li>
+          <li>Breakfast — oatmeal + fruit</li>
+        </ul>
+      </li>
+      <li>Afternoon
+        <ul>
+          <li>Work / Study — focus blocks (2 x 50 min)</li>
+          <li>Lunch</li>
+          <li>Short walk / break</li>
+        </ul>
+      </li>
+      <li>Night
+        <ul>
+          <li>Dinner</li>
+          <li>Relax / read / code
+            <ol>
+              <li>Read 30 pages</li>
+              <li>Practice coding challenges — 1 hour</li>
+            </ol>
+          </li>
+          <li>Sleep — aim 11:30 PM</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Task 6 -->
+  <section class="box">
+    <h2>Task 6 — Website Menu (list-based navigation)</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- Task 7 -->
+  <section class="box">
+    <h2>Task 7 — Recipe Page</h2>
+    <h3>Simple Pancakes</h3>
+    <strong>Ingredients:</strong>
+    <ul>
+      <li>1 cup all-purpose flour</li>
+      <li>1 cup milk</li>
+      <li>1 egg</li>
+      <li>1 tbsp sugar</li>
+      <li>1 tsp baking powder</li>
+      <li>Pinch of salt</li>
+    </ul>
+
+    <strong>Steps:</strong>
+    <ol>
+      <li>Mix dry ingredients in a bowl.</li>
+      <li>Whisk milk and egg together, then combine with dry mix until smooth.</li>
+      <li>Heat a non-stick pan, pour batter to form pancakes.</li>
+      <li>Cook until bubbles appear, flip and cook the other side.</li>
+      <li>Serve warm with syrup or fruit.</li>
+    </ol>
+  </section>
+
+  <!-- Task 8 -->
+  <section class="box">
+    <h2>Task 8 — Marquee Tag Examples</h2>
+    <!-- Note: <marquee> is deprecated in modern HTML but included here per your request -->
+    <p>Scrolling name (left → right):</p>
+    <marquee behavior="scroll" direction="right">Your Name Here</marquee>
+
+    <p>Scrolling sentence (bottom → top):</p>
+    <marquee behavior="scroll" direction="up">Welcome to HTML Class</marquee>
+  </section>
+
+  <footer>Created: HTML Lists Exercises — contains examples for Tasks 1–8.</footer>
+</body>
+</html>
