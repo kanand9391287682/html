@@ -1,0 +1,48 @@
+body{
+    background-color:white;
+   display: flex;
+    justify-content: center;
+
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.heroines{
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    border: border-box;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+
+
+@keyframes showandhidden{
+    0%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+ 
